@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, world! I am wasm!")
+	fmt.Println("Hello, console!")
 
 	alert := js.Global().Get("alert")
-	alert.Invoke("Hello, globe!")
+	alert.Invoke("Hello, global!")
 }
